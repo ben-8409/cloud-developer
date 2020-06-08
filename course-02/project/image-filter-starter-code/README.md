@@ -12,9 +12,6 @@ A basic Ionic client web application which consumes the RestAPI Backend. [Covere
 
 ### Setup Node Environment
 
-Configure a token. The server requires the environment variable APP_TOKEN to be set. You can set it locally using:
-`export APP_TOKEN=<insert_token_here>`.
-
 You'll need to create a new node server. Open a new terminal within the project directory and run:
 
 1. Initialize a new project: `npm i`
@@ -33,9 +30,6 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 ### Deploying your system
 
 Follow the process described in the course to `eb init` a new application and `eb create` a new environment to deploy your image-filter service! Don't forget you can use `eb deploy` to push changes.
-
-The server requires the environment variable APP_TOKEN to be set. You can set on you eb environment using:
-`eb setenv APP_TOKEN=<insert_token_here>`.
 
 ## Stand Out (Optional)
 
